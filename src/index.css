@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .active-data :hover
+{
+  background: #4e4ffa;
+} */
+
+
+
+.single-service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.single-service-item img 
+{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+#Unique
+{
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 10px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: aliceblue;
+}
+.data-one, .value-data
+{
+  display: flex;
+  justify-content: center;
+}
+.single-service-item p:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 3px;
+  background: #0a0a0a;
+  bottom: 0;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.spect
+{
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 10px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: aliceblue;
+}
+.spect p
+{
+  display: flex;
+  justify-content: center;
+}
